@@ -145,6 +145,10 @@ def Take_query():
             speak("Abrindo telegram")
             subprocess([''])
             continue
+        elif "abrir steam" in query:
+            speak("Abrindo a steam")
+            subprocess([''])
+            continue
         elif "me fale seu nome" in query: 
             speak("Eu sou Mooko sua assistente virtual") 
   
